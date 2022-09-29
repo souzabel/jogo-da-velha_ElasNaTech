@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+table,
+.configurador{
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid black;
+  height: 166px;
+  width: 166px;
+  text-align: center;
+  font-size: 96px;
+}
+
+.configurador{
+  text-align: center;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.configurador input {
+  padding: 10px;
+}
+
+.configurador span {
+  background-color: lightgray;
+  padding: 9px 15px 11.5px;
+  vertical-align: baseline;
+  border: 1px solid gray;
+}
+
+.configurador button {
+  padding: 7px 15px;
+  background-color: lightgray;
+  border: 1px solid gray;
+}
+
+.msg {
+  width: 480px;
+  padding: 10px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  line-height: 12px;
+  height: 40px;
+  border: 1px solid lightgray;
+  color: gray;
+}
+  /*footeer*/
+  section.footer {
+    text-align: center;
+    line-height: 3px;
+  }
